@@ -1,7 +1,9 @@
 <?php
-//like django here we get command to create project and app 
+// like django here we write command to create project and app 
 // >>startproject <projectname>
 // >>startapp <appname>
+// >> makemigrations
+// >> migrate
 include_once("mangoPHP/core/management/commands/startapp.php");
 include_once("mangoPHP/core/management/commands/startproject.php");
 
