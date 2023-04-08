@@ -5,6 +5,9 @@
 function stratapp($appName)
 {
     mkdir($appName);
+
+    $viewsFile    = fopen("$appName/views.php", "w");
+    $modelFile    = fopen("$appName/models.php", "w");
 }
 
 
